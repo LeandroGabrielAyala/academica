@@ -1,0 +1,44 @@
+:root {
+	--white-color: #ffffff;
+	--primary-color: #189bd5;
+	--secundary-color:;
+	--footer-1: #20232e;
+	--footer-2: #1b1d26;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: .85rem;
+}
+
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+#menu {
+	border-bottom: 4px solid var(--primary-color);
+}
+
+#menu a, #menu a:visited {
+	color: var(--primary-color);
+	font-weight: 700;
+	padding: 20px 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu li:hover a, #menu li:focus a, #menu li:active a {
+	color: var(--white-color);
+	background: var(--primary-color);
+}
