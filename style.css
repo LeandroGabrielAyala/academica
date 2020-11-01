@@ -139,7 +139,6 @@ ul {
 
 .tramites-item {
 	border-left: 3px solid var(--primary-color);
-	margin-bottom: 50px;
 }
 .tramites-item i {
 	color: var(--primary-color);
@@ -153,5 +152,56 @@ ul {
     margin-top: 6px;
 }
 .tramites-item__description {
+	color: var(--secundary-color);
+}
+
+/* ----------------------
+	MISION
+-------------------------*/
+#mision {}
+.mision-paragrhap {
+	font-size: .9rem;
+    line-height: 182%;
+    background: #9c9c9c2b;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* ----------------------
+	VISION
+-------------------------*/
+#vision {}
+.vision-paragrhap {
+	font-size: .9rem;
+    line-height: 182%;
+    background: #9c9c9c2b;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* ----------------------
+	SECRETARIO
+-------------------------*/
+.perfil {
+	border-radius: 50%;
+	border: 4px solid var(--primary-color);
+}
+#secretario {}
+
+.secretario-item {
+	border-left: 3px solid var(--primary-color);
+}
+.secretario-item i {
+	color: var(--primary-color);
+	font-size: 3rem;
+	font-weight: 200;
+}
+.secretario-item__title {
+	color: var(--primary-color);
+	font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 6px;
+}
+.secretario-item__description {
 	color: var(--secundary-color);
 }
