@@ -46,41 +46,32 @@ ul {
 	border-bottom: 4px solid var(--primary-color);
 }
 
-#menu a, #menu a:visited {
+#menu button {
+	background: var(--white-color);
 	color: var(--primary-color);
 	font-weight: 700;
 	padding: 20px 10px;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+	align-items: center;
+	border: none !important;
 
     transition: var(--transition);
 }
-#menu li:hover a, #menu li:focus a, #menu li:active a {
+#menu li:hover button, #menu li:focus button, #menu li:active button,
+#menu button:hover, #menu button:focus, #menu button:active {
 	color: var(--white-color);
 	background: var(--primary-color);
+	outline: none !important;
 }
 
-.subMenu {
-	width: 65.3%;
-	height: 110px;
-	margin-left: auto;
-	margin-right: auto;
-	border-left: 3px solid var(--primary-color);
-	border-right: 3px solid var(--primary-color);
-	border-top: 3px solid var(--primary-color);
+.dropdown-item, .dropdown-item:visited {
+	color: var(--primary-color);
 }
-.subMenu a {
-	font-weight: 400 !important;
-}
-.subMenu a i {
-	font-size: 2.3rem;
-	margin-bottom: 10px;
-	font-weight: 200;
-}
-.subMenu a span {
-	font-size: 1rem;
+.dropdown-item:hover, .dropdown-item:active, .dropdown-item:focus {
+	color: var(--white-color);
+	background: var(--primary-color);
 }
 
 /* ----------------------
@@ -98,32 +89,35 @@ ul {
 .noticias-title {}
 
 .noticias-item__img {
-	border-radius: 10px;
-    box-shadow: 10px 10px 0px 0px #0202022e;
+    height: 250px;
+	background-image: linear-gradient(to bottom, #189bd54d, #080808e0), url(http://lorempixel.com/400/200/sports/5/);
+	background-size: cover;
+	border: none !important;
+	border-radius: 5px 5px 0 0;
     transition: var(--transition);
 }
-.noticias-item:hover .noticias-item__img {
-	box-shadow: 0px 0px 0px 0px #0202022e;
-}
+
 .noticias-item__date {
 	color: var(--secundary-color);
     margin: 16px 0 7px;
 }
 .noticias-item__title {
-	font-size: 1.7rem;
-    font-weight: 800;
-    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #007cb3d6;
 }
 .noticias-item__resumen {
-    font-size: .9rem;
+	font-size: .8rem;
+    line-height: 175%;
     color: #5f5f5f;
 }
 .noticias-item__redMore, .noticias-item__redMore:visited {
+	width: 35%;
 	border: 1px solid var(--primary-color);
 	background: var(--primary-color);
     color: var(--white-color);
     padding: 9px 0;
-    border-radius: 5px;
+    border-radius: 0 5px 0 5px;
     transition: var(--transition);
 }
 

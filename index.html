@@ -18,54 +18,70 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<!-- Logo 
+	<nav class="w-100 p-0 m-0">
+		<div class="container text-center">
+			<p>LOGO</p>
+		</div>
+	</nav>
+	/Logo -->
+
 	<!-- Menu -->
 	<nav id="menu" class="w-100 p-0 m-0">
 		<div class="container">
 			<ul class="w-100 d-flex justify-content-center align-items-center p-0 m-0">
-				<li class="p-0 my-0 mx-3"><a id="nosotros" href="#">Nosotros</a></li>
-				<li class="p-0 my-0 mx-3"><a href="#">Documentación</a></li>
-				<li class="p-0 my-0 mx-3"><a href="#">Gestión de Alumnos</a></li>
-
-				<!-- Logo -->
-				<li class="p-0 my-0 mx-3">LOGO</li>
-				<!-- /Logo -->
-
-				<li class="p-0 my-0 mx-3"><a href="#">Académica</a></li>
-				<li class="p-0 my-0 mx-3"><a href="#">Pedagogía</a></li>
-				<li class="p-0 my-0 mx-3"><a href="#">Sitios secundarios</a></li>
-			</ul>
-		</div>
-		<div id="submenuNosotros" class="subMenu d-none justify-content-center align-items-center p-0">
-			<ul class="d-flex justify-content-between align-items-center w-100 p-0 m-0">
-				<li class="p-0 m-0 w-100">
-					<a href="mision.html" target="_blank" class="d-flex flex-column justify-content-center align-items-center">
-						<i class="fas fa-university"></i>
-						<span>Misión</span>
-					</a>
+				<!-- Menu: NOSOTROS -->
+				<li class="p-0 my-0 mx-3">
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Nosotros
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item my-1" href="mision.html" target="_blank"><i class="fas fa-university mr-3"></i>Misión</a>
+						<a class="dropdown-item my-1" href="vision.html" target="_blank"><i class="far fa-eye mr-3"></i>Visión</a>
+						<a class="dropdown-item my-1" href="secretario.html" target="_blank"><i class="far fa-user mr-3"></i>Secretario</a>
+						<a class="dropdown-item my-1" href="conocenos.html" target="_blank"><i class="far fa-comments mr-3"></i>Conocenos</a>
+					</div>
 				</li>
-				<li class="p-0 m-0 w-100">
-					<a href="vision.html" target="_blank" class="d-flex flex-column justify-content-center align-items-center">
-						<i class="far fa-eye"></i>
-						<span>Visión</span>
-					</a>
+				<!-- Menu: CALIDAD -->
+				<li class="p-0 my-0 mx-3">
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Calidad
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+						<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-fire-alt mr-3"></i>Función</a>
+						<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="fas fa-bullhorn mr-3"></i>Ordenanzas CONEAU</a>
+						<a class="dropdown-item my-1" href="accesoconeau.html" target="_blank"><i class="fas fa-book mr-3"></i>Acceso a CONEAU</a>
+					</div>
 				</li>
-				<li class="p-0 m-0 w-100">
-					<a href="secretario.html" target="_blank" class="d-flex flex-column justify-content-center align-items-center">
-						<i class="far fa-user"></i>
-						<span>Secretario</span>
-					</a>
+				<!-- Menu: DOCUMENTACIÓN -->
+				<li class="p-0 my-0 mx-3">
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Documentación
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+						<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-scroll mr-3"></i>Resoluciones</a>
+						<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="far fa-file-alt mr-3"></i>Disposiciones</a>
+					</div>
 				</li>
-				<li class="p-0 m-0 w-100">
-					<a href="#" target="_blank" class="d-flex flex-column justify-content-center align-items-center">
-						<i class="fas fa-graduation-cap"></i>
-						<span>Conozcámosnos</span>
-					</a>
+				<li class="p-0 my-0 mx-3">
+					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Gestión de Alumnos
+					</button>
 				</li>
-				<li class="p-0 m-0 w-100">
-					<a href="calidad.html" target="_blank" class="d-flex flex-column justify-content-center align-items-center">
-						<i class="fas fa-award"></i>
-						<span>Calidad</span>
-					</a>
+				<li class="p-0 my-0 mx-3">
+					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Académica
+					</button>
+				</li>
+				<li class="p-0 my-0 mx-3">
+					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Pedagogía
+					</button>
+				</li>
+				<li class="p-0 my-0 mx-3">
+					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Otros Sitios
+					</button>
 				</li>
 			</ul>
 		</div>
@@ -76,63 +92,40 @@
 	<section id="slider" class="w-100"></section>
 	<!-- /Slider -->
 
-	<!-- Noticias -->
-	<section id="noticias">
-		<div class="container">
-			<div class="row d-flex justify-content-center align-items-center">
-				<div class="section-title p-0 my-5 mx-0">
-					<h2 data-heading="- - Noticias - -" class="text-center m-0 py-3 px-0">Últimas Novedades</h2>
+	<!-- Noticias Trend -->
+	<div class="container">
+		<div class="row mt-5 mb-0">
+			<div class="col-md-6">
+			  <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+				<div class="col p-4 d-flex flex-column position-static">
+				  <strong class="d-inline-block mb-2 text-primary">World</strong>
+				  <h3 class="mb-0">Featured post</h3>
+				  <div class="mb-1 text-muted">Nov 12</div>
+				  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+				  <a href="#" class="stretched-link">Continue reading</a>
 				</div>
-			</div>
-			<div class="row d-flex justify-content-center align-items-center">
-				<div class="col-sm-12 noticias-content d-flex justify-content-center align-items-start flex-wrap p-0 m-0">
-					<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
-						<img class="noticias-item__img" src="https://picsum.photos/id/237/300/250"></img>
-						<span class="noticias-item__date">28 de Octubre de 2020</span>
-						<h3 class="noticias-item__title">Noticias de ejemplo</h3>
-						<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
-						<a href="#" class="noticias-item__redMore text-center">Leer más</a>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
-						<img class="noticias-item__img" src="https://picsum.photos/id/237/300/250"></img>
-						<span class="noticias-item__date">28 de Octubre de 2020</span>
-						<h3 class="noticias-item__title">Noticias de ejemplo</h3>
-						<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
-						<a href="#" class="noticias-item__redMore text-center">Leer más</a>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
-						<img class="noticias-item__img" src="https://picsum.photos/id/237/300/250"></img>
-						<span class="noticias-item__date">28 de Octubre de 2020</span>
-						<h3 class="noticias-item__title">Noticias de ejemplo</h3>
-						<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
-						<a href="#" class="noticias-item__redMore text-center">Leer más</a>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
-						<img class="noticias-item__img" src="https://picsum.photos/id/237/300/250"></img>
-						<span class="noticias-item__date">28 de Octubre de 2020</span>
-						<h3 class="noticias-item__title">Noticias de ejemplo</h3>
-						<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
-						<a href="#" class="noticias-item__redMore text-center">Leer más</a>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
-						<img class="noticias-item__img" src="https://picsum.photos/id/237/300/250"></img>
-						<span class="noticias-item__date">28 de Octubre de 2020</span>
-						<h3 class="noticias-item__title">Noticias de ejemplo</h3>
-						<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
-						<a href="#" class="noticias-item__redMore text-center">Leer más</a>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
-						<img class="noticias-item__img" src="https://picsum.photos/id/237/300/250"></img>
-						<span class="noticias-item__date">28 de Octubre de 2020</span>
-						<h3 class="noticias-item__title">Noticias de ejemplo</h3>
-						<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
-						<a href="#" class="noticias-item__redMore text-center">Leer más</a>
-					</div>
+				<div class="col-auto d-none d-lg-block">
+				  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
 				</div>
+			  </div>
 			</div>
-		</div>
-	</section>
-	<!-- /Noticias -->
+			<div class="col-md-6">
+			  <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+				<div class="col p-4 d-flex flex-column position-static">
+				  <strong class="d-inline-block mb-2 text-success">Design</strong>
+				  <h3 class="mb-0">Post title</h3>
+				  <div class="mb-1 text-muted">Nov 11</div>
+				  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+				  <a href="#" class="stretched-link">Continue reading</a>
+				</div>
+				<div class="col-auto d-none d-lg-block">
+				  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	</div>
+	<!-- /Noticias Trend -->
 
 	<!-- Tramites rápidos -->
 	<section id="tramites">
@@ -180,7 +173,154 @@
 	</section>
 	<!-- /Tramites rápidos -->
 
+	<!-- Features -->
+	<div class="container">
+		<div class="row featurette">
+			<div class="col-md-7 order-md-2">
+			<h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			</div>
+			<div class="col-md-5 order-md-1">
+			<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+			</div>
+		</div>
+	</div>
+	<!-- /Features -->
+
+	<!-- Noticias -->
+	<section id="noticias">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="section-title p-0 my-5 mx-0">
+					<h2 data-heading="- - Noticias - -" class="text-center m-0 py-3 px-0">Últimas Novedades</h2>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center align-items-center">				
+				<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
+					<img class="noticias-item__img w-100"></img>
+					<span class="noticias-item__date">28 de Octubre de 2020</span>
+					<h3 class="noticias-item__title">Noticias de ejemplo</h3>
+					<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
+					<a href="#" class="noticias-item__redMore text-center">Leer más</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
+					<img class="noticias-item__img w-100"></img>
+					<span class="noticias-item__date">28 de Octubre de 2020</span>
+					<h3 class="noticias-item__title">Noticias de ejemplo</h3>
+					<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
+					<a href="#" class="noticias-item__redMore text-center">Leer más</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
+					<img class="noticias-item__img w-100"></img>
+					<span class="noticias-item__date">28 de Octubre de 2020</span>
+					<h3 class="noticias-item__title">Noticias de ejemplo</h3>
+					<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
+					<a href="#" class="noticias-item__redMore text-center">Leer más</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
+					<img class="noticias-item__img w-100"></img>
+					<span class="noticias-item__date">28 de Octubre de 2020</span>
+					<h3 class="noticias-item__title">Noticias de ejemplo</h3>
+					<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
+					<a href="#" class="noticias-item__redMore text-center">Leer más</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
+					<img class="noticias-item__img w-100"></img>
+					<span class="noticias-item__date">28 de Octubre de 2020</span>
+					<h3 class="noticias-item__title">Noticias de ejemplo</h3>
+					<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
+					<a href="#" class="noticias-item__redMore text-center">Leer más</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 py-0 px-3 mx-0 my-2 mb-4 d-flex flex-column noticias-item">
+					<img class="noticias-item__img w-100"></img>
+					<span class="noticias-item__date">28 de Octubre de 2020</span>
+					<h3 class="noticias-item__title">Noticias de ejemplo</h3>
+					<p class="noticias-item__resumen">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus, obcaecati quasi fugit, inventore incidunt.</p>
+					<a href="#" class="noticias-item__redMore text-center">Leer más</a>
+				</div>					
+			</div>
+		</div>
+	</section>
+	<!-- /Noticias -->
+
+	<!-- Contacto -->
+	<section id="contacto">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="section-title p-0 my-5 mx-0">
+					<h2 data-heading="- - Contacto - -" class="text-center m-0 py-3 px-0">Esperamos tu consulta</h2>
+				</div>
+			</div>
+			<form>
+				<div class="form-group">
+					<label for="asuntoContacto">Asunto</label>
+					<input type="text" class="form-control" id="asuntoContacto" aria-describedby="asuntoHelp">
+					<small id="asuntoHelp" class="form-text text-muted">Breve título de tu mensaje.</small>
+				</div>
+				<div class="form-group">
+					<label for="emailContacto">Correo electrónico</label>
+					<input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
+					<small id="emailHelp" class="form-text text-muted">Ingresa un correo válido.</small>
+				</div>
+				<div class="form-group">
+					<label for="mensajeContacto">Mensaje</label>
+					<textarea class="form-control" id="mensajeContacto" rows="5"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Enviar</button>
+			</form>
+		</div>
+	</section>
+	<!-- /Contacto -->
+
+	<hr class="w-100">
+
 	<!-- Footer -->
+	<footer class="container py-5">
+		<div class="row">
+		  <div class="col-12 col-md">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+			<small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+		  </div>
+		  <div class="col-6 col-md">
+			<h5>Features</h5>
+			<ul class="list-unstyled text-small">
+			  <li><a class="text-muted" href="#">Cool stuff</a></li>
+			  <li><a class="text-muted" href="#">Random feature</a></li>
+			  <li><a class="text-muted" href="#">Team feature</a></li>
+			  <li><a class="text-muted" href="#">Stuff for developers</a></li>
+			  <li><a class="text-muted" href="#">Another one</a></li>
+			  <li><a class="text-muted" href="#">Last time</a></li>
+			</ul>
+		  </div>
+		  <div class="col-6 col-md">
+			<h5>Resources</h5>
+			<ul class="list-unstyled text-small">
+			  <li><a class="text-muted" href="#">Resource</a></li>
+			  <li><a class="text-muted" href="#">Resource name</a></li>
+			  <li><a class="text-muted" href="#">Another resource</a></li>
+			  <li><a class="text-muted" href="#">Final resource</a></li>
+			</ul>
+		  </div>
+		  <div class="col-6 col-md">
+			<h5>Resources</h5>
+			<ul class="list-unstyled text-small">
+			  <li><a class="text-muted" href="#">Business</a></li>
+			  <li><a class="text-muted" href="#">Education</a></li>
+			  <li><a class="text-muted" href="#">Government</a></li>
+			  <li><a class="text-muted" href="#">Gaming</a></li>
+			</ul>
+		  </div>
+		  <div class="col-6 col-md">
+			<h5>About</h5>
+			<ul class="list-unstyled text-small">
+			  <li><a class="text-muted" href="#">Team</a></li>
+			  <li><a class="text-muted" href="#">Locations</a></li>
+			  <li><a class="text-muted" href="#">Privacy</a></li>
+			  <li><a class="text-muted" href="#">Terms</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </footer>
 	<!-- /Footer -->
 
 	<!-- Scripts -->
@@ -189,15 +329,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
 	<script>
-		$( '#nosotros' ).click(function() {
-			if ($('#submenuNosotros').hasClass('d-none')) {
-				$( '#submenuNosotros' ).removeClass( 'd-none' );
-				$( '#submenuNosotros' ).addClass( 'd-flex' );
-			} else {
-				$( '#submenuNosotros' ).removeClass( 'd-flex' );
-				$( '#submenuNosotros' ).addClass( 'd-none' );
-			}
-		});
+		$('.dropdown-toggle').dropdown();
 	</script>
 </body>
 </html>
