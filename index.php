@@ -1,95 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Secretaría Académica | Universidad Nacional del Chaco Austral</title>
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
-
-	<!-- FontAwesome -->
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-	<!-- Style -->
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<!-- Logo 
-	<nav class="w-100 p-0 m-0">
-		<div class="container text-center">
-			<p>LOGO</p>
-		</div>
-	</nav>
-	/Logo -->
-
-	<!-- Menu -->
-	<nav id="menu" class="w-100 p-0 m-0">
-		<div class="container">
-			<ul class="w-100 d-flex justify-content-center align-items-center p-0 m-0">
-				<!-- Menu: NOSOTROS -->
-				<li class="p-0 my-0 mx-3">
-					<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Nosotros
-					</button>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item my-1" href="mision.html" target="_blank"><i class="fas fa-university mr-3"></i>Misión</a>
-						<a class="dropdown-item my-1" href="vision.html" target="_blank"><i class="far fa-eye mr-3"></i>Visión</a>
-						<a class="dropdown-item my-1" href="secretario.html" target="_blank"><i class="far fa-user mr-3"></i>Secretario</a>
-						<a class="dropdown-item my-1" href="conocenos.html" target="_blank"><i class="far fa-comments mr-3"></i>Conocenos</a>
-					</div>
-				</li>
-				<!-- Menu: CALIDAD -->
-				<li class="p-0 my-0 mx-3">
-					<button class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Calidad
-					</button>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-						<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-fire-alt mr-3"></i>Función</a>
-						<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="fas fa-bullhorn mr-3"></i>Ordenanzas CONEAU</a>
-						<a class="dropdown-item my-1" href="accesoconeau.html" target="_blank"><i class="fas fa-book mr-3"></i>Acceso a CONEAU</a>
-					</div>
-				</li>
-				<!-- Menu: DOCUMENTACIÓN -->
-				<li class="p-0 my-0 mx-3">
-					<button class="dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Documentación
-					</button>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-						<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-scroll mr-3"></i>Resoluciones</a>
-						<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="far fa-file-alt mr-3"></i>Disposiciones</a>
-					</div>
-				</li>
-				<li class="p-0 my-0 mx-3">
-					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Gestión de Alumnos
-					</button>
-				</li>
-				<li class="p-0 my-0 mx-3">
-					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Académica
-					</button>
-				</li>
-				<li class="p-0 my-0 mx-3">
-					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Pedagogía
-					</button>
-				</li>
-				<li class="p-0 my-0 mx-3">
-					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Otros Sitios
-					</button>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<!-- /Menu -->
+<?php include 'header.php'; ?>
 
 	<!-- Slider -->
-	<section id="slider" class="w-100"></section>
+	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+			<!-- <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+			<li data-target="#carouselExampleCaptions" data-slide-to="2"></li> -->
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="1.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>First slide label</h5>
+					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+				</div>
+			</div>
+			<!-- <div class="carousel-item">
+				<img src="2.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Second slide label</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="3.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h5>Third slide label</h5>
+					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				</div>
+			</div> -->
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
 	<!-- /Slider -->
 
 	<!-- Noticias Trend -->
@@ -251,85 +200,47 @@
 					<h2 data-heading="- - Contacto - -" class="text-center m-0 py-3 px-0">Esperamos tu consulta</h2>
 				</div>
 			</div>
-			<form>
-				<div class="form-group">
-					<label for="asuntoContacto">Asunto</label>
-					<input type="text" class="form-control" id="asuntoContacto" aria-describedby="asuntoHelp">
-					<small id="asuntoHelp" class="form-text text-muted">Breve título de tu mensaje.</small>
+			<div class="contacto__form col-sm-12 d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start">			
+				<form class="col-sm-12 col-md-6">
+					<div class="form-group">
+						<label for="asuntoContacto">Asunto</label>
+						<input type="text" class="form-control" id="asuntoContacto" aria-describedby="asuntoHelp">
+						<small id="asuntoHelp" class="form-text text-muted">Breve título de tu mensaje.</small>
+					</div>
+					<div class="form-group">
+						<label for="emailContacto">Correo electrónico</label>
+						<input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
+						<small id="emailHelp" class="form-text text-muted">Ingresa un correo válido.</small>
+					</div>
+					<div class="form-group">
+						<label for="mensajeContacto">Mensaje</label>
+						<textarea class="form-control" id="mensajeContacto" rows="5"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+
+				<div class="datosContacto col-sm-12 col-md-6 pl-md-5">
+					<div class="email mb-4">
+						<p class="m-0 p-0"><i class="fas fa-envelope mr-2"></i>Email:</p>
+						<span>academica@uncaus.edu.ar</span>
+					</div>
+					<div class="telefono mb-4">
+						<p class="m-0 p-0"><i class="fas fa-phone mr-2"></i>Teléfono:</p>
+						<span>+54 364 4734901</span>
+					</div>
+					<div class="direccion mb-4">
+						<p class="m-0 p-0"><i class="fas fa-map-marker-alt mr-2"></i>Dirección:</p>
+						<span>Comandante Fernández 755, Pcia. R. Sáenz Peña</span>
+					</div>
+					<div class="socialMedia d-flex justify-content-center justify-content-md-start align-items-center py-4">
+						<a href="#" target="_blank"><i class="fab fa-facebook mr-4"></i></a>
+						<a href="#" target="_blank"><i class="fab fa-instagram mr-4"></i></a>
+						<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+					</div>
 				</div>
-				<div class="form-group">
-					<label for="emailContacto">Correo electrónico</label>
-					<input type="email" class="form-control" id="emailContacto" aria-describedby="emailHelp">
-					<small id="emailHelp" class="form-text text-muted">Ingresa un correo válido.</small>
-				</div>
-				<div class="form-group">
-					<label for="mensajeContacto">Mensaje</label>
-					<textarea class="form-control" id="mensajeContacto" rows="5"></textarea>
-				</div>
-				<button type="submit" class="btn btn-primary">Enviar</button>
-			</form>
+			</div>
 		</div>
 	</section>
 	<!-- /Contacto -->
 
-	<hr class="w-100">
-
-	<!-- Footer -->
-	<footer class="container py-5">
-		<div class="row">
-		  <div class="col-12 col-md">
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-			<small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
-		  </div>
-		  <div class="col-6 col-md">
-			<h5>Features</h5>
-			<ul class="list-unstyled text-small">
-			  <li><a class="text-muted" href="#">Cool stuff</a></li>
-			  <li><a class="text-muted" href="#">Random feature</a></li>
-			  <li><a class="text-muted" href="#">Team feature</a></li>
-			  <li><a class="text-muted" href="#">Stuff for developers</a></li>
-			  <li><a class="text-muted" href="#">Another one</a></li>
-			  <li><a class="text-muted" href="#">Last time</a></li>
-			</ul>
-		  </div>
-		  <div class="col-6 col-md">
-			<h5>Resources</h5>
-			<ul class="list-unstyled text-small">
-			  <li><a class="text-muted" href="#">Resource</a></li>
-			  <li><a class="text-muted" href="#">Resource name</a></li>
-			  <li><a class="text-muted" href="#">Another resource</a></li>
-			  <li><a class="text-muted" href="#">Final resource</a></li>
-			</ul>
-		  </div>
-		  <div class="col-6 col-md">
-			<h5>Resources</h5>
-			<ul class="list-unstyled text-small">
-			  <li><a class="text-muted" href="#">Business</a></li>
-			  <li><a class="text-muted" href="#">Education</a></li>
-			  <li><a class="text-muted" href="#">Government</a></li>
-			  <li><a class="text-muted" href="#">Gaming</a></li>
-			</ul>
-		  </div>
-		  <div class="col-6 col-md">
-			<h5>About</h5>
-			<ul class="list-unstyled text-small">
-			  <li><a class="text-muted" href="#">Team</a></li>
-			  <li><a class="text-muted" href="#">Locations</a></li>
-			  <li><a class="text-muted" href="#">Privacy</a></li>
-			  <li><a class="text-muted" href="#">Terms</a></li>
-			</ul>
-		  </div>
-		</div>
-	  </footer>
-	<!-- /Footer -->
-
-	<!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
-
-	<script>
-		$('.dropdown-toggle').dropdown();
-	</script>
-</body>
-</html>
+<?php include 'footer.php'; ?>

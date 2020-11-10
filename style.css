@@ -199,3 +199,44 @@ ul {
 .secretario-item__description {
 	color: var(--secundary-color);
 }
+
+/* ----------------------
+	SLIDER
+-------------------------*/
+#carouselExampleCaptions .carousel-inner img {
+	position: relative;
+}
+#carouselExampleCaptions .carousel-inner img::after {
+	content: "";
+	background: red;
+	/*background-image: linear-gradient(to bottom, #189bd54d, #080808e0);*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: block;
+	height: 400px;
+	z-index: 999;
+}
+
+/* ----------------------
+	CONTACTO
+-------------------------*/
+
+.datosContacto p {
+	color: var(--primary-color);
+	font-weight: 300;
+	font-size: 1.4rem;
+}
+.datosContacto p i {
+	font-weight: 300;
+}
+.datosContacto span {
+	color: var(--secundary-color);
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+.socialMedia i {
+	color: var(--primary-color);
+	font-size: 2rem;
+}
