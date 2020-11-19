@@ -123,11 +123,11 @@
 	<!-- /Tramites rápidos -->
 
 	<!-- Features -->
-	<div class="container-fluid" style="background: var(--primary-color);">
+	<div class="container-fluid">
 		<div class="row featurette">
 			<div class="col-md-7 order-md-2 py-5 pr-2">
-			<h2 class="featurette-heading text-white">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-			<p class="lead text-white">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+			<h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 			</div>
 			<div class="col-md-5 order-md-1">
 			<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
@@ -193,7 +193,7 @@
 	<!-- /Noticias -->
 
 	<!-- Contacto -->
-	<section id="contacto">
+	<section id="contacto" class="pb-5">
 		<div class="container">
 			<div class="row d-flex justify-content-center align-items-center">
 				<div class="section-title p-0 my-5 mx-0">
@@ -219,7 +219,7 @@
 					<button type="submit" class="btn btn-primary">Enviar</button>
 				</form>
 
-				<div class="datosContacto col-sm-12 col-md-6 pl-md-5">
+				<div class="datosContacto col-sm-12 col-md-6 pl-md-5 pt-4 pt-md-0">
 					<div class="email mb-4">
 						<p class="m-0 p-0"><i class="fas fa-envelope mr-2"></i>Email:</p>
 						<span>academica@uncaus.edu.ar</span>

@@ -1,5 +1,3 @@
-<hr class="w-100">
-
 <!-- Footer -->
 <footer class="container py-5">
     <div class="row">
