@@ -9,24 +9,24 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="1.jpg" class="d-block w-100" alt="...">
+				<img src="images/1.jpg" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>First slide label</h5>
-					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+					<h5>Título de ejemplo</h5>
+					<p>Descripción de ejemplo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, error?</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="2.jpg" class="d-block w-100" alt="...">
+				<img src="images/2.jpg" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Second slide label</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<h5>Título de ejemplo</h5>
+					<p>Descripción de ejemplo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, error?</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="3.jpg" class="d-block w-100" alt="...">
+				<img src="images/3.jpg" class="d-block w-100" alt="...">
 				<div class="carousel-caption d-none d-md-block">
-					<h5>Third slide label</h5>
-					<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+					<h5>Título de ejemplo</h5>
+					<p>Descripción de ejemplo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, error?</p>
 				</div>
 			</div>
 		</div>
@@ -42,38 +42,46 @@
 	<!-- /Slider -->
 
 	<!-- Noticias Trend -->
-	<div class="container">
-		<div class="row mt-5 mb-0">
-			<div class="col-md-6">
-			  <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-				<div class="col p-4 d-flex flex-column position-static">
-				  <strong class="d-inline-block mb-2 text-primary">World</strong>
-				  <h3 class="mb-0">Featured post</h3>
-				  <div class="mb-1 text-muted">Nov 12</div>
-				  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-				  <a href="#" class="stretched-link">Continue reading</a>
+	<section id="trend">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center">
+				<div class="section-title p-0 my-5 mx-0">
+					<h2 data-heading="- - Noticias - -" class="text-center m-0 py-3 px-0">Destacados de la Semana</h2>
 				</div>
-				<div class="col-auto d-none d-lg-block">
-				  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-				</div>
-			  </div>
 			</div>
-			<div class="col-md-6">
-			  <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-				<div class="col p-4 d-flex flex-column position-static">
-				  <strong class="d-inline-block mb-2 text-success">Design</strong>
-				  <h3 class="mb-0">Post title</h3>
-				  <div class="mb-1 text-muted">Nov 11</div>
-				  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-				  <a href="#" class="stretched-link">Continue reading</a>
+			<div class="row mt-0 mb-5">
+				<div class="col-md-6">
+					<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+						<div class="col p-4 d-flex flex-column position-static">
+							<strong class="d-inline-block mb-2 text-primary">Carreras</strong>
+							<h3 class="mb-0">Título de ejemplo</h3>
+							<div class="mb-1 text-muted">16 de Noviembre de 2020</div>
+							<p class="card-text mb-auto">Descripción de ejemplo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, sint?</p>
+							<a href="#" class="stretched-link">Leer más</a>
+						</div>
+						<div class="col-auto d-none d-lg-block">
+							<img src="images/destacado.jpg" alt="" height="250" width="200">
+						</div>
+					</div>
 				</div>
-				<div class="col-auto d-none d-lg-block">
-				  <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+				<div class="col-md-6">
+					<div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+						<div class="col p-4 d-flex flex-column position-static">
+							<strong class="d-inline-block mb-2 text-success">Postitulos</strong>
+							<h3 class="mb-0">Título de ejemplo</h3>
+							<div class="mb-1 text-muted">16 de Noviembre de 2020</div>
+							<p class="card-text mb-auto">Descripción de ejemplo: Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, sint?</p>
+							<a href="#" class="stretched-link">Leer más</a>
+						</div>
+						<div class="col-auto d-none d-lg-block">
+							<img src="images/destacado.jpg" alt="" height="250" width="200">
+						</div>
+					</div>
 				</div>
-			  </div>
 			</div>
-		  </div>
-	</div>
+		</div>
+	</section>
+
 	<!-- /Noticias Trend -->
 
 	<!-- Tramites rápidos -->
@@ -123,14 +131,11 @@
 	<!-- /Tramites rápidos -->
 
 	<!-- Features -->
-	<div class="container-fluid">
-		<div class="row featurette">
-			<div class="col-md-7 order-md-2 py-5 pr-2">
-			<h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-			<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-			</div>
-			<div class="col-md-5 order-md-1">
-			<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+	<div class="container-fluid py-5" style="background: url(images/mujer.jpg); background-position: bottom center;">
+		<div class="row featurette d-flex justify-content-center align-items-center">
+			<div class="col-md-7 order-md-2 py-5 pr-2 text-center">
+				<h2 class="featurette-heading text-white" style="font-size: 1.8rem;">Título de ejemplo. <span class="text-muted">Frase corta.</span></h2>
+				<p class="lead text-white" style="font-size: 1rem;">Descripción de ejemplo: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas praesentium ex accusamus impedit iste necessitatibus..</p>
 			</div>
 		</div>
 	</div>

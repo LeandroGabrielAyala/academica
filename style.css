@@ -233,9 +233,9 @@ ul {
 /* ----------------------
 	CONTACTO
 -------------------------*/
-
 #contacto {
 	background: #189bd517;
+	border-bottom: 3px solid var(--primary-color);
 }
 
 .datosContacto p {
@@ -255,3 +255,8 @@ ul {
 	color: var(--primary-color);
 	font-size: 2rem;
 }
+
+/* ----------------------
+	FOOTER
+-------------------------*/
+footer {}
