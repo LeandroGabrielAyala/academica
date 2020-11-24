@@ -38,7 +38,7 @@
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 						<a class="dropdown-item my-1" href="mision.html" target="_blank"><i class="fas fa-university mr-3"></i>Misión</a>
 						<a class="dropdown-item my-1" href="vision.html" target="_blank"><i class="far fa-eye mr-3"></i>Visión</a>
-						<a class="dropdown-item my-1" href="secretario.html" target="_blank"><i class="far fa-user mr-3"></i>Secretario</a>
+						<a class="dropdown-item my-1" href="secretario.php" target="_blank"><i class="far fa-user mr-3"></i>Secretario</a>
 						<a class="dropdown-item my-1" href="conocenos.html" target="_blank"><i class="far fa-comments mr-3"></i>Conocenos</a>
 					</div>
 				</li>

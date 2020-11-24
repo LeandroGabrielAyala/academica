@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'include/header.php'; ?>
 
 	<!-- Slider -->
 	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -248,4 +248,4 @@
 	</section>
 	<!-- /Contacto -->
 
-<?php include 'footer.php'; ?>
+<?php include 'include/footer.php'; ?>
