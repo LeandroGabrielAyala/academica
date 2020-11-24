@@ -36,7 +36,7 @@
 						Nosotros
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-						<a class="dropdown-item my-1" href="mision.html" target="_blank"><i class="fas fa-university mr-3"></i>Misión</a>
+						<a class="dropdown-item my-1" href="mision.php" target="_blank"><i class="fas fa-university mr-3"></i>Misión</a>
 						<a class="dropdown-item my-1" href="vision.html" target="_blank"><i class="far fa-eye mr-3"></i>Visión</a>
 						<a class="dropdown-item my-1" href="secretario.php" target="_blank"><i class="far fa-user mr-3"></i>Secretario</a>
 						<a class="dropdown-item my-1" href="conocenos.html" target="_blank"><i class="far fa-comments mr-3"></i>Conocenos</a>
@@ -64,9 +64,17 @@
 					</div>
 				</li>
 				<li class="p-0 my-0 mx-3">
-					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Gestión de Alumnos
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Gestión de Alumnos
 					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+						<a class="dropdown-item my-1" href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank"><i class="fas fa-laptop mr-3"></i>SIU Guaraní</a>
+						<a class="dropdown-item my-1" href="https://mesas.uncaus.edu.ar" target="_blank"><i class="fas fa-receipt mr-3"></i>Mesas</a>
+						<a class="dropdown-item my-1" href="http://aulero.uncaus.edu.ar/" target="_blank"><i class="fas fa-building mr-3"></i>Aulero</a>
+						<a class="dropdown-item my-1" href="#" style="background: var(--primary-color);color: white;"><i class="far fa-envelope mr-3"></i>Contactar</a>
+						<a class="dropdown-item my-1" href="mailto:infoalumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>infoalumnado@uncaus.edu.ar</a>
+						<a class="dropdown-item my-1" href="mailto:alumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>alumnado@uncaus.edu.ar</a>
+					</div>
 				</li>
 				<li class="p-0 my-0 mx-3">
 					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

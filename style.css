@@ -163,10 +163,12 @@ ul {
 /* ----------------------
 	MISION
 -------------------------*/
-#mision {}
+#mision {
+	border-bottom: 3px solid var(--primary-color);
+}
 .mision-paragrhap {
-	font-size: .9rem;
-    line-height: 182%;
+	font-size: .8rem;
+    line-height: 230%;
     background: #9c9c9c2b;
     padding: 10px;
     border-radius: 6px;
