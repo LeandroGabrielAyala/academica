@@ -82,12 +82,12 @@
 						<div class="megaMenu-items">
 							<span class="megaMenu-title">Gestión de Alumnos</span>
 							<!-- elementos hijos -->
-							<a class="dropdown-item my-1" href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank"><i class="fas fa-laptop mr-3"></i>SIU Guaraní</a>
-							<a class="dropdown-item my-1" href="https://mesas.uncaus.edu.ar" target="_blank"><i class="fas fa-receipt mr-3"></i>Mesas</a>
-							<a class="dropdown-item my-1" href="http://aulero.uncaus.edu.ar/" target="_blank"><i class="fas fa-building mr-3"></i>Aulero</a>
-							<a class="dropdown-item my-1" href="#" target="_blank"><i class="fas fa-building mr-3"></i>Trámites Rápidos</a>
-							<a class="dropdown-item my-1" href="mailto:infoalumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>infoalumnado@uncaus.edu.ar</a>
-							<a class="dropdown-item my-1" href="mailto:alumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>alumnado@uncaus.edu.ar</a>
+							<a class="my-1" href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank"><i class="fas fa-laptop mr-3"></i>SIU Guaraní</a>
+							<a class="my-1" href="https://mesas.uncaus.edu.ar" target="_blank"><i class="fas fa-receipt mr-3"></i>Mesas</a>
+							<a class="my-1" href="http://aulero.uncaus.edu.ar/" target="_blank"><i class="fas fa-building mr-3"></i>Aulero</a>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-building mr-3"></i>Trámites Rápidos</a>
+							<a class="my-1" href="mailto:infoalumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>infoalumnado@uncaus.edu.ar</a>
+							<a class="my-1" href="mailto:alumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>alumnado@uncaus.edu.ar</a>
 						</div>
 
 						<div class="megaMenu-items">
@@ -452,8 +452,20 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
-		background: red;
+		background: #189bd50f;
 		padding: 8px;
+	}
+
+	.megaMenu-items a, .megaMenu-items a:visited {
+		color: var(--primary-color);
+		padding: 4px 9px;
+		border-radius: 4px;
+		transition: all .3s ease;
+	}
+	.megaMenu-items a:hover, .megaMenu-items a:active, .megaMenu-items a:focus {
+		background: var(--primary-color);
+		color: white;
+		padding: 5px 10px;
 	}
 
 	.dropdown-menu {
