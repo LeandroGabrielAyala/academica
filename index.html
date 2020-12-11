@@ -80,24 +80,44 @@
 					<div class="dropdown-menu megaMenu menu-none" aria-labelledby="dropdownMenuButton4">
 
 						<div class="megaMenu-items">
+							<!-- Elemento Padre -->
 							<span class="megaMenu-title">Gestión de Alumnos</span>
-							<!-- elementos hijos -->
+							<!-- Elementos Hijos -->
 							<a class="my-1" href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank"><i class="fas fa-laptop mr-3"></i>SIU Guaraní</a>
-							<a class="my-1" href="https://mesas.uncaus.edu.ar" target="_blank"><i class="fas fa-receipt mr-3"></i>Mesas</a>
+							<a class="my-1" href="https://mesas.uncaus.edu.ar" target="_blank"><i class="fas fa-pencil-alt mr-3"></i>Mesas</a>
 							<a class="my-1" href="http://aulero.uncaus.edu.ar/" target="_blank"><i class="fas fa-building mr-3"></i>Aulero</a>
-							<a class="my-1" href="#" target="_blank"><i class="fas fa-building mr-3"></i>Trámites Rápidos</a>
-							<a class="my-1" href="mailto:infoalumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>infoalumnado@uncaus.edu.ar</a>
-							<a class="my-1" href="mailto:alumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>alumnado@uncaus.edu.ar</a>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-tachometer-alt mr-3"></i>Trámites Rápidos</a>
+							<a class="my-1" href="mailto:infoalumnado@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>infoalumnado@uncaus.edu.ar</a>
+							<a class="my-1" href="mailto:alumnado@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>alumnado@uncaus.edu.ar</a>
 						</div>
 
 						<div class="megaMenu-items">
+							<!-- Elemento Padre -->
 							<span class="megaMenu-title">Títulos</span>
+							<!-- Elementos Hijos -->
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-laptop mr-3"></i>Estado de Trámite (SIDCer)</a>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-pencil-alt mr-3"></i>Resoluciones Ministeriales</a>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-building mr-3"></i>Requisitos para el trámite</a>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-tachometer-alt mr-3"></i>Novedades</a>
+							<a class="my-1" href="mailto:jose@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>jose@uncaus.edu.ar</a>
 						</div>
+
 						<div class="megaMenu-items">
+							<!-- Elemento Padre -->
 							<span class="megaMenu-title">Equivalencias</span>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-laptop mr-3"></i>Acceso al Sistema</a>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-laptop mr-3"></i>Requisitos</a>							
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-laptop mr-3"></i>Tutoriales</a>							
+							<a class="my-1" href="mailto:consultasequivalencias@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>consultasequivalencias@uncaus.edu.ar</a>
 						</div>
+
 						<div class="megaMenu-items">
+							<!-- Elemento Padre -->
 							<span class="megaMenu-title">Pedagogía</span>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-laptop mr-3"></i>Mayores de 25</a>
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-laptop mr-3"></i>Orientación</a>							
+							<a class="my-1" href="#" target="_blank"><i class="fas fa-laptop mr-3"></i>Asesoramiento a docentes</a>							
+							<a class="my-1" href="mailto:contacto@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>contacto@uncaus.edu.ar</a>
 						</div>
 
 						<!-- elementos padre
@@ -438,13 +458,14 @@
 <!-- Styles -->
 <style>
 	.megaMenu {
-		width: 54%;
+		width: 90%;
 		left: 50% !important;
 		top: 9.6% !important;
 		transform: translateX(-50%) !important;
 		justify-content: space-between;
 		align-items: flex-start;
 		padding: 7px 10px;
+		box-shadow: 2px 4px 13px 0px #026d9c70;
 	}
 
 	.megaMenu-items {
@@ -466,6 +487,16 @@
 		background: var(--primary-color);
 		color: white;
 		padding: 5px 10px;
+	}
+
+	.megaMenu-title {
+		width: 100%;
+		text-align: center;
+		border-radius: 15px;
+		border: 1px solid var(--primary-color);
+		color: var(--primary-color);
+		margin-bottom: 10px;
+		padding: 3px;
 	}
 
 	.dropdown-menu {
