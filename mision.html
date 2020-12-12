@@ -13,24 +13,20 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
 	<!-- FontAwesome -->
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
 	<!-- Style -->
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<!-- Logo 
-	<nav class="w-100 p-0 m-0">
-		<div class="container text-center">
-			<p>LOGO</p>
-		</div>
-	</nav>
-	/Logo -->
-
 	<!-- Menu -->
 	<nav id="menu" class="w-100 p-0 m-0">
 		<div class="container">
 			<ul class="w-100 d-flex justify-content-center align-items-center p-0 m-0">
+
+				<!-- Logo -->
+				<img src="images/logos/4.png" class="mr-3 py-2" alt="Logo Secretaría Académica" width="6%"> <!-- // Logo-->
+
 				<!-- Menu: NOSOTROS -->
 				<li class="p-0 my-0 mx-3">
 					<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -42,18 +38,24 @@
 						<a class="dropdown-item my-1" href="secretario.html" target="_blank"><i class="far fa-user mr-3"></i>Secretario</a>
 						<a class="dropdown-item my-1" href="conocenos.html" target="_blank"><i class="far fa-comments mr-3"></i>Conocenos</a>
 					</div>
-				</li>
+				</li> <!-- // Menu: NOSOTROS -->
+
 				<!-- Menu: CALIDAD -->
 				<li class="p-0 my-0 mx-3">
 					<button class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Calidad
 					</button>
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-						<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-fire-alt mr-3"></i>Función</a>
-						<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="fas fa-bullhorn mr-3"></i>Ordenanzas CONEAU</a>
-						<a class="dropdown-item my-1" href="accesoconeau.html" target="_blank"><i class="fas fa-book mr-3"></i>Acceso a CONEAU</a>
+						<!-- elementos padre -->
+						<a class="dropdown-item my-1" href="#" target="_blank"><i class="fas fa-fire-alt mr-3"></i>Planeamiento</a>
+							<!-- elementos hijos -->
+							<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-fire-alt mr-3"></i>Función</a>
+							<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="fas fa-bullhorn mr-3"></i>Ordenanzas CONEAU</a>
+							<a class="dropdown-item my-1" href="accesoconeau.html" target="_blank"><i class="fas fa-book mr-3"></i>Acceso a CONEAU</a>
+							<a class="dropdown-item my-1" href="mailto:planeamiento@uncaus.edu.ar" target="_blank"><i class="fas fa-book mr-3"></i>planeamiento@uncaus.edu.ar</a>
 					</div>
-				</li>
+				</li> <!-- // Menu: CALIDAD -->
+
 				<!-- Menu: DOCUMENTACIÓN -->
 				<li class="p-0 my-0 mx-3">
 					<button class="dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,35 +65,25 @@
 						<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-scroll mr-3"></i>Resoluciones</a>
 						<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="far fa-file-alt mr-3"></i>Disposiciones</a>
 					</div>
-				</li>
+				</li> <!-- // Menu: DOCUMENTACIÓN -->
+
+				<!-- Menu: ÁREAS -->
 				<li class="p-0 my-0 mx-3">
-					<button class="dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Gestión de Alumnos
+					<button class="megaMenu-click d-flex justify-content-center align-items-center">
+						Áreas<i class="fas fa-sort-down ml-2"></i>
 					</button>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
-						<a class="dropdown-item my-1" href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank"><i class="fas fa-laptop mr-3"></i>SIU Guaraní</a>
-						<a class="dropdown-item my-1" href="https://mesas.uncaus.edu.ar" target="_blank"><i class="fas fa-receipt mr-3"></i>Mesas</a>
-						<a class="dropdown-item my-1" href="http://aulero.uncaus.edu.ar/" target="_blank"><i class="fas fa-building mr-3"></i>Aulero</a>
-						<a class="dropdown-item my-1" href="#" style="background: var(--primary-color);color: white;"><i class="far fa-envelope mr-3"></i>Contactar</a>
-						<a class="dropdown-item my-1" href="mailto:infoalumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>infoalumnado@uncaus.edu.ar</a>
-						<a class="dropdown-item my-1" href="mailto:alumnado@uncaus.edu.ar" target="_blank"><i class="far fa-dot-circle mr-3"></i>alumnado@uncaus.edu.ar</a>
+				</li> <!-- // Menu: ÁREAS -->
+				
+				<!-- Menu: ACCESO A SISTEMAS -->
+				<li class="p-0 my-0 mx-3">
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Acceso a Sistemas
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+						<a class="dropdown-item my-1" href="http://virtual.uncaus.edu.ar/" target="_blank"><i class="fas fa-chalkboard-teacher mr-3"></i>Educación Virtual</a>
+						<a class="dropdown-item my-1" href="#" target="_blank"><i class="fas fa-book-open mr-3"></i>Biblioteca</a>
 					</div>
-				</li>
-				<li class="p-0 my-0 mx-3">
-					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Académica
-					</button>
-				</li>
-				<li class="p-0 my-0 mx-3">
-					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Pedagogía
-					</button>
-				</li>
-				<li class="p-0 my-0 mx-3">
-					<button class="" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Otros Sitios
-					</button>
-				</li>
+				</li> <!-- // Menu: ACCESO A SISTEMAS -->
 			</ul>
 		</div>
 	</nav>
@@ -119,62 +111,80 @@
 	</section>
 	<!-- /Misión -->
 
-<!-- Footer -->
-<footer class="container py-5">
-    <div class="row">
-      <div class="col-12 col-md">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-        <small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Features</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Cool stuff</a></li>
-          <li><a class="text-muted" href="#">Random feature</a></li>
-          <li><a class="text-muted" href="#">Team feature</a></li>
-          <li><a class="text-muted" href="#">Stuff for developers</a></li>
-          <li><a class="text-muted" href="#">Another one</a></li>
-          <li><a class="text-muted" href="#">Last time</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Resource</a></li>
-          <li><a class="text-muted" href="#">Resource name</a></li>
-          <li><a class="text-muted" href="#">Another resource</a></li>
-          <li><a class="text-muted" href="#">Final resource</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Business</a></li>
-          <li><a class="text-muted" href="#">Education</a></li>
-          <li><a class="text-muted" href="#">Government</a></li>
-          <li><a class="text-muted" href="#">Gaming</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>About</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="text-muted" href="#">Team</a></li>
-          <li><a class="text-muted" href="#">Locations</a></li>
-          <li><a class="text-muted" href="#">Privacy</a></li>
-          <li><a class="text-muted" href="#">Terms</a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
-<!-- /Footer -->
+	<!-- Footer -->
+	<footer class="container py-5">
+		<div class="row">
+		<div class="col-12 col-md">
+			<img src="images/logos/4.png" class="mb-3" alt="Logo Secretaría Académica" width="50%">
+			<small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+		</div>
+		<div class="col-6 col-md">
+			<h5>Features</h5>
+			<ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="#">Cool stuff</a></li>
+			<li><a class="text-muted" href="#">Random feature</a></li>
+			<li><a class="text-muted" href="#">Team feature</a></li>
+			<li><a class="text-muted" href="#">Stuff for developers</a></li>
+			<li><a class="text-muted" href="#">Another one</a></li>
+			<li><a class="text-muted" href="#">Last time</a></li>
+			</ul>
+		</div>
+		<div class="col-6 col-md">
+			<h5>Resources</h5>
+			<ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="#">Resource</a></li>
+			<li><a class="text-muted" href="#">Resource name</a></li>
+			<li><a class="text-muted" href="#">Another resource</a></li>
+			<li><a class="text-muted" href="#">Final resource</a></li>
+			</ul>
+		</div>
+		<div class="col-6 col-md">
+			<h5>Resources</h5>
+			<ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="#">Business</a></li>
+			<li><a class="text-muted" href="#">Education</a></li>
+			<li><a class="text-muted" href="#">Government</a></li>
+			<li><a class="text-muted" href="#">Gaming</a></li>
+			</ul>
+		</div>
+		<div class="col-6 col-md">
+			<h5>About</h5>
+			<ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="#">Team</a></li>
+			<li><a class="text-muted" href="#">Locations</a></li>
+			<li><a class="text-muted" href="#">Privacy</a></li>
+			<li><a class="text-muted" href="#">Terms</a></li>
+			</ul>
+		</div>
+		</div>
+	</footer>
+	<!-- /Footer -->
 
-<!-- Scripts -->
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
-<script>
-    $('.dropdown-toggle').dropdown();
-</script>
+	<script>
+		$('.dropdown-toggle').dropdown();
+		
+		$('.megaMenu-click').click(function() {
+			if($('.megaMenu').hasClass('menu-none')) {
+				$('.megaMenu').removeClass('menu-none');
+				$('.megaMenu').addClass('menu-show');
+				$('.megaMenu').removeClass('show');
+			} else {
+				$('.megaMenu').addClass('menu-none');
+				$('.megaMenu').removeClass('menu-show');
+				$('.megaMenu').removeClass('show');
+			}
+		});
+
+		$('.dropdown-toggle').click(function() {
+			$('.megaMenu').addClass('menu-none');
+			$('.megaMenu').removeClass('menu-show');
+			$('.megaMenu').removeClass('show');
+		});
+	</script>
 </body>
 </html>
