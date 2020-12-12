@@ -351,6 +351,13 @@ ul {
 }
 
 /* ----------------------
+	CALIDAD
+-------------------------*/
+#calidad {
+	border-bottom: 3px solid var(--primary-color);
+}
+
+/* ----------------------
 	FOOTER
 -------------------------*/
 footer {}
