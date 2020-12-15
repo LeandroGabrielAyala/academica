@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Secretaría Académica | Universidad Nacional del Chaco Austral</title>
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+	<!-- Style -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Menu -->
+	<nav class="menu w-100 p-0 m-0">
+		<div class="container">
+			<ul class="w-100 d-flex justify-content-center align-items-center p-0 m-0">
+
+				<!-- Logo -->
+				<!-- COLOCAR LINK DE INDEX.HTML -->
+				<img src="images/logos/4.png" class="mr-3 py-2" alt="Logo Secretaría Académica" width="6%"> <!-- // Logo-->
+
+				<!-- Menu: NOSOTROS -->
+				<li class="p-0 my-0 mx-3">
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Nosotros
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item my-1" href="mision.html" target="_blank"><i class="fas fa-university mr-3"></i>Misión</a>
+						<a class="dropdown-item my-1" href="vision.html" target="_blank"><i class="far fa-eye mr-3"></i>Visión</a>
+						<a class="dropdown-item my-1" href="secretario.html" target="_blank"><i class="far fa-user mr-3"></i>Secretario</a>
+						<a class="dropdown-item my-1" href="conocenos.html" target="_blank"><i class="far fa-comments mr-3"></i>Conocenos</a>
+					</div>
+				</li> <!-- // Menu: NOSOTROS -->
+
+				<!-- Menu: CALIDAD -->
+				<li class="p-0 my-0 mx-3">
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Calidad
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+						<!-- elementos padre -->
+						<a class="dropdown-item my-1" href="#" target="_blank"><i class="fas fa-fire-alt mr-3"></i>Planeamiento</a>
+							<!-- elementos hijos -->
+							<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-fire-alt mr-3"></i>Función</a>
+							<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="fas fa-bullhorn mr-3"></i>Ordenanzas CONEAU</a>
+							<a class="dropdown-item my-1" href="accesoconeau.html" target="_blank"><i class="fas fa-book mr-3"></i>Acceso a CONEAU</a>
+							<a class="dropdown-item my-1" href="mailto:planeamiento@uncaus.edu.ar" target="_blank"><i class="fas fa-book mr-3"></i>planeamiento@uncaus.edu.ar</a>
+					</div>
+				</li> <!-- // Menu: CALIDAD -->
+
+				<!-- Menu: DOCUMENTACIÓN -->
+				<li class="p-0 my-0 mx-3">
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Documentación
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+						<a class="dropdown-item my-1" href="funcion.html" target="_blank"><i class="fas fa-scroll mr-3"></i>Resoluciones</a>
+						<a class="dropdown-item my-1" href="ordenanzaconeau.html" target="_blank"><i class="far fa-file-alt mr-3"></i>Disposiciones</a>
+					</div>
+				</li> <!-- // Menu: DOCUMENTACIÓN -->
+
+				<!-- Menu: ÁREAS -->
+				<li class="p-0 my-0 mx-3">
+					<button class="megaMenu-click d-flex justify-content-center align-items-center">
+						Áreas<i class="fas fa-sort-down ml-2"></i>
+					</button>
+				</li> <!-- // Menu: ÁREAS -->
+				
+				<!-- Menu: ACCESO A SISTEMAS -->
+				<li class="p-0 my-0 mx-3">
+					<button class="dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Acceso a Sistemas
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+						<a class="dropdown-item my-1" href="http://virtual.uncaus.edu.ar/" target="_blank"><i class="fas fa-chalkboard-teacher mr-3"></i>Educación Virtual</a>
+						<a class="dropdown-item my-1" href="#" target="_blank"><i class="fas fa-book-open mr-3"></i>Biblioteca</a>
+					</div>
+				</li> <!-- // Menu: ACCESO A SISTEMAS -->
+			</ul>
+		</div>
+	</nav>
+	<!-- /Menu -->
+	
+	<!-- Soporte Mega Menu -->
+	<div class="soporte w-100 position-relative">
+		<!-- MEGA MENU -->
+		<div class="megaMenu menu-none flex-column flex-lg-row justify-content-between align-items-start">
+			<div class="megaMenu-items">
+				<!-- Elemento Padre -->
+				<span class="megaMenu-title">Gestión de Alumnos</span>
+				<!-- Elementos Hijos -->
+				<a class="my-1" href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank"><i class="fas fa-laptop mr-3"></i>SIU Guaraní</a>
+				<a class="my-1" href="https://mesas.uncaus.edu.ar" target="_blank"><i class="fas fa-pencil-alt mr-3"></i>Mesas</a>
+				<a class="my-1" href="http://aulero.uncaus.edu.ar/" target="_blank"><i class="fas fa-building mr-3"></i>Aulero</a>
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-tachometer-alt mr-3"></i>Trámites Rápidos</a>
+				<a class="my-1" href="mailto:infoalumnado@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>Contacto 1</a>
+				<a class="my-1" href="mailto:alumnado@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>Contacto 2</a>
+			</div>
+
+			<div class="megaMenu-items">
+				<!-- Elemento Padre -->
+				<span class="megaMenu-title">Títulos</span>
+				<!-- Elementos Hijos -->
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-level-up-alt mr-3"></i>Estado de Trámite (SIDCer)</a>
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-scroll mr-3"></i>Resoluciones Ministeriales</a>
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-tasks mr-3"></i>Requisitos para el trámite</a>
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-thumbtack mr-3"></i>Novedades</a>
+				<a class="my-1" href="mailto:jose@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>Contcto</a>
+			</div>
+
+			<div class="megaMenu-items">
+				<!-- Elemento Padre -->
+				<span class="megaMenu-title">Equivalencias</span>
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-laptop mr-3"></i>Acceso al Sistema</a>
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-clipboard-list mr-3"></i>Requisitos</a>							
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-mouse mr-3"></i>Tutoriales</a>							
+				<a class="my-1" href="mailto:consultasequivalencias@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>Contacto</a>
+			</div>
+
+			<div class="megaMenu-items">
+				<!-- Elemento Padre -->
+				<span class="megaMenu-title">Pedagogía</span>
+				<a class="my-1" href="#" target="_blank"><i class="far fa-address-book mr-3"></i>Mayores de 25</a>
+				<a class="my-1" href="#" target="_blank"><i class="far fa-lightbulb mr-3"></i>Orientación</a>							
+				<a class="my-1" href="#" target="_blank"><i class="fas fa-award mr-3"></i>Asesoramiento a docentes</a>							
+				<a class="my-1" href="mailto:contacto@uncaus.edu.ar"><i class="far fa-envelope mr-3"></i>Contacto</a>
+			</div>
+
+			<div class="megaMenu-items">
+				<!-- Elemento Padre -->
+				<span class="megaMenu-title">Posgrado</span>
+				<a class="my-1" href="http://posgrado.uncaus.edu.ar/" target="_blank"><i class="fas fa-laptop mr-3"></i>Acceso al Sistema</a>
+			</div>
+		</div> <!-- MEGA MENU -->
+	</div>
+	<!-- /Soporte Mega Menu -->
+
+	<!-- Banner Vision -->
+	<div class="banner-vision d-flex flex-column justify-content-center align-items-center" style="width:100%;height:250px;">
+		<h2 class="text-white mb-3 mx-0 mt-0 p-0">-- Nuestra Visión --</h2>
+		<p class="text-white p-0 m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, quis.</p>
+	</div>
+	<!-- /Banner Vision -->
+
+	<!-- Vision -->
+	<section id="vision" class="pb-4">
+		<div class="container">
+			<div class="row d-flex justify-content-center align-items-center">
+
+				<!-- imagen -->
+				<div class="col-lg-6 col-sm-12">
+					<img src="images/logos/1.png" alt="" width="60%">
+				</div> <!-- /imagen -->
+
+				<!-- texto -->
+				<div class="col-lg-6 col-sm-12">
+					<div class="section-title p-0 mt-4 mb-2 mx-0">
+						<h2 class="text-right m-0 py-3 px-0">Bienestar universitario</h2>
+					</div>
+					<p class="vision-paragrhap text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ratione magnam, omnis quo! Libero incidunt est dolore rerum asperiores nam officia porro ipsa itaque consequuntur quam ipsam nulla, dolores veritatis voluptates? Officiis tempore saepe fugit harum quo, nostrum voluptates asperiores, repudiandae eaque. Quae maxime accusamus dolor eius ratione nemo est, velit iure tempora amet ipsa unde quaerat saepe, assumenda dolore cupiditate rerum modi pariatur laboriosam quibusdam iste ut non impedit corporis quia. Doloremque, velit deserunt corporis perspiciatis doloribus eaque sint debitis saepe eos commodi vel odio cupiditate ea, quis maiores, aut fuga, in! Debitis accusamus necessitatibus libero autem nesciunt et officia quis, similique dolore, recusandae quam, eius placeat. Laudantium repudiandae molestias doloremque veniam voluptas, accusantium impedit et neque corrupti placeat perspiciatis eius possimus voluptate cumque pariatur harum eligendi ex quia labore deleniti.</p>			
+				</div> <!-- /texto -->
+
+				<!-- texto -->
+				<div class="col-lg-6 col-sm-12">
+					<div class="section-title p-0 mt-4 mb-2 mx-0">
+						<h2 class="text-left m-0 py-3 px-0">El alumno como primera prioridad</h2>
+					</div>
+					<p class="vision-paragrhap text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ratione magnam, omnis quo! Libero incidunt est dolore rerum asperiores nam officia porro ipsa itaque consequuntur quam ipsam nulla, dolores veritatis voluptates? Officiis tempore saepe fugit harum quo, nostrum voluptates asperiores, repudiandae eaque. Quae maxime accusamus dolor eius ratione nemo est, velit iure tempora amet ipsa unde quaerat saepe, assumenda dolore cupiditate rerum modi pariatur laboriosam quibusdam iste ut non impedit corporis quia. Doloremque, velit deserunt corporis perspiciatis doloribus eaque sint debitis saepe eos commodi vel odio cupiditate ea, quis maiores, aut fuga, in! Debitis accusamus necessitatibus libero autem nesciunt et officia quis, similique dolore, recusandae quam, eius placeat. Laudantium repudiandae molestias doloremque veniam voluptas, accusantium impedit et neque corrupti placeat perspiciatis eius possimus voluptate cumque pariatur harum eligendi ex quia labore deleniti.</p>			
+				</div> <!-- /texto -->
+
+				<!-- imagen -->
+				<div class="col-lg-6 col-sm-12 text-right">
+					<img src="images/logos/1.png" alt="" width="60%">
+				</div> <!-- /imagen -->
+
+			</div>			
+		</div>
+	</section>
+	<!-- /Vision -->
+
+	<!-- Footer -->
+	<footer class="container py-5">
+		<div class="row">
+		<div class="col-12 col-md">
+			<img src="images/logos/4.png" class="mb-3" alt="Logo Secretaría Académica" width="50%">
+			<small class="d-block mb-3 text-muted">&copy; 2017-2020</small>
+		</div>
+		<div class="col-6 col-md">
+			<h5>Features</h5>
+			<ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="#">Cool stuff</a></li>
+			<li><a class="text-muted" href="#">Random feature</a></li>
+			<li><a class="text-muted" href="#">Team feature</a></li>
+			<li><a class="text-muted" href="#">Stuff for developers</a></li>
+			<li><a class="text-muted" href="#">Another one</a></li>
+			<li><a class="text-muted" href="#">Last time</a></li>
+			</ul>
+		</div>
+		<div class="col-6 col-md">
+			<h5>Resources</h5>
+			<ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="#">Resource</a></li>
+			<li><a class="text-muted" href="#">Resource name</a></li>
+			<li><a class="text-muted" href="#">Another resource</a></li>
+			<li><a class="text-muted" href="#">Final resource</a></li>
+			</ul>
+		</div>
+		<div class="col-6 col-md">
+			<h5>Resources</h5>
+			<ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="#">Business</a></li>
+			<li><a class="text-muted" href="#">Education</a></li>
+			<li><a class="text-muted" href="#">Government</a></li>
+			<li><a class="text-muted" href="#">Gaming</a></li>
+			</ul>
+		</div>
+		<div class="col-6 col-md">
+			<h5>About</h5>
+			<ul class="list-unstyled text-small">
+			<li><a class="text-muted" href="#">Team</a></li>
+			<li><a class="text-muted" href="#">Locations</a></li>
+			<li><a class="text-muted" href="#">Privacy</a></li>
+			<li><a class="text-muted" href="#">Terms</a></li>
+			</ul>
+		</div>
+		</div>
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+	<script>
+		$('.dropdown-toggle').dropdown();
+		
+		$('.megaMenu-click').click(function() {
+			if($('.megaMenu').hasClass('menu-none')) {
+				$('.megaMenu').removeClass('menu-none');
+				$('.megaMenu').addClass('menu-show');
+				$('.megaMenu').removeClass('show');
+			} else {
+				$('.megaMenu').addClass('menu-none');
+				$('.megaMenu').removeClass('menu-show');
+				$('.megaMenu').removeClass('show');
+			}
+		});
+
+		$('.dropdown-toggle').click(function() {
+			$('.megaMenu').addClass('menu-none');
+			$('.megaMenu').removeClass('menu-show');
+			$('.megaMenu').removeClass('show');
+		});
+	</script>
+</body>
+</html>
